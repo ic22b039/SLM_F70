@@ -10,13 +10,12 @@ name: Java CI with Maven
 
 on:
   push:
-    branches: [ "main, feature*" ]
+    branches: [ main, "feature*" ]
   pull_request:
-    branches: [ "main, feature*" ]
+    branches: [ main, "feature*" ]
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
